@@ -13,6 +13,6 @@ $(call inherit-product, device/lge/w7ds/device_w7ds.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := w7ds
 PRODUCT_NAME := cm_w7ds
-PRODUCT_BRAND := lge
+PRODUCT_BRAND := LGE
 PRODUCT_MODEL := w7ds
 PRODUCT_MANUFACTURER := lge
