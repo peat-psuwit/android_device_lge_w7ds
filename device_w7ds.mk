@@ -17,6 +17,11 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
+#Copied from g2-common.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ueventd.w7ds.rc:root/ueventd.w7ds.rc \
+    $(LOCAL_PATH)/fstab.w7ds:root/fstab.w7ds
+
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
