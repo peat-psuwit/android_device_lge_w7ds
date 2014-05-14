@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 
 #Copied from g2-common.
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init.w7ds.rc:root/init.w7ds.rc \
     $(LOCAL_PATH)/ueventd.w7ds.rc:root/ueventd.w7ds.rc \
     $(LOCAL_PATH)/fstab.w7ds:root/fstab.w7ds
 
