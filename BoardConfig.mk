@@ -44,7 +44,7 @@ TARGET_KERNEL_SOURCE := kernel/lge/w7ds
 TARGET_KERNEL_CONFIG := w7ds_open_cis_defconfig
 BOARD_KERNEL_SEPARATED_DT := true
 MSM8226_DTS_TARGET := msm8226-w7ds_open_cis
-BOARD_CUSTOM_BOOTIMG_MK := device/lge/w7ds/releasetools/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/lge/w7ds/mkbootimg.mk
 endif
 
 BOARD_HAS_NO_SELECT_BUTTON := true
